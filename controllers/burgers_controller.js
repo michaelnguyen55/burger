@@ -8,8 +8,8 @@ var burger = require("../models/burger.js");
 
 // Create all our routes and set up logic within those routes where required.
 // Routes use functions from burger.js to change the database
-// Route for getting information from the database
-router.get("*", function(req, res) {
+// Route for getting information from the database and displaying default page
+router.get("/", function(req, res) {
   burger.selectAll(function(data) {
     var hbsObject = {
       burgers: data
