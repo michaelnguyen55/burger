@@ -1,0 +1,70 @@
+body {
+	background-color: #f4b942;
+	text-align: center;
+}
+
+h1 {
+	color: #e82929;
+}
+
+#burgerImage {
+	height: 150px;
+	width: 175px;
+}
+
+#undevouredBurgers, #devouredBurgers {
+	float:left;
+	width: 50%;
+}
+
+.burger, .burgerDevoured {
+	float: left;
+	padding: 5px;
+	margin: 5px 10px;
+	background: #ffffff;
+ 	width: 50%;
+	box-shadow: 4px 4px #ba882a;
+  	overflow: auto;
+	clear: both;
+}
+
+.burgerDevoured {
+	color: #666666;
+	background-color: #dddddd;
+}
+
+.devour, .delete-burger, #submit {
+	color: white;
+	background-color: #e82929;
+	border: 0px solid;
+	padding: 7px;
+	box-shadow: 3px 3px #ba882a;
+	cursor: pointer;
+	float: left;
+	margin: 5px 0px 0px 0px;
+}
+
+#submitError {
+	color: #e82929;
+}
+
+#submit {
+	float: none;
+}
+
+.devour:hover, .delete-burger:hover, #submit:hover {
+	background-color: #e84c4c;
+}
+
+.label {
+	font-weight: bold;
+}
+
+.form-group {
+	margin-bottom: 5px;
+}
+
+.create-form {
+	overflow: auto;
+	clear: both;
+}
